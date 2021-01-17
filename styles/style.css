@@ -1,0 +1,1900 @@
+@font-face {
+    font-family: 'Fira Mono Regular';
+    src: url(../assets/fonts/Fira_Mono/FiraMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Fira Mono Bold';
+    src: url(../assets/fonts/Fira_Mono/FiraMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Major Mono Display';
+    src: url(../assets/fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    background-color: #222B30;
+    font-family: 'Fira Mono Regular', monospace;
+    color: #FFFFFF;
+    font-weight: initial;
+    height: 600px;
+}
+
+#bodycontainer {
+    width: 1300px;
+    padding-left: 15px;
+    height: 520px;
+
+    margin:auto;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: initial;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: 'Fira Mono Bold', monospace;
+    font-weight: initial;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: initial;
+}
+
+h3 {
+    font-weight: initial;
+    font-size: 18px;
+    line-height: 2em;
+    margin-top: 7px;
+    width: 400px;
+}
+
+header {
+    display: inline-block;
+
+}
+
+header .container{
+    display: inline-block;
+}
+
+#portfolio1img,
+#portfolio2img,
+#portfolio3img,
+#portfolio4img,
+#portfolio5img,
+#portfolio6img {
+    width: 250px;
+    display: block;
+}
+
+#portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5,
+#portfolio6 {
+    padding-bottom: 1px;
+}
+
+#portfolio1:hover,
+#portfolio2:hover,
+#portfolio3:hover,
+#portfolio4:hover,
+#portfolio5:hover,
+#portfolio6:hover {
+    padding-bottom: 0px;
+    border-block-end: 1px solid white;
+}
+
+#clicktovisit, #projects{
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    top: -30px;
+}
+
+#sectionportfolio {
+    display: inline-block;
+    margin-left: 70px;
+    position: relative;
+    top: 60px;
+}
+
+#sectionportfolio .container {
+    width: 780px;
+    height: 280px;
+
+    display: grid;
+    grid-template-rows: 160px 160px;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 15px;
+    
+    justify-items: center;
+    align-items: center;
+
+    justify-content: center;
+    align-content: center;
+
+}
+
+.figcaptionclass {
+    background-color: #344752;
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+}
+
+#sectionmoreinfo {
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    top: -45px;
+}
+
+#sectionmoreinfo .container {
+    margin: 8px;
+}
+
+#sectionmoreinfo .container img{
+    margin: 7px;
+}
+
+#moreinfo {
+    text-align:center;
+}
+
+#whatsappimg,
+#emailimg,
+#linkedinimg,
+#githubimg {
+    width: 40px;
+}
+
+p {
+    font-size: 10px;
+    font-weight: initial;
+    letter-spacing: 1.2px;
+}
+
+#creditscontainer {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+
+/* 000px 000px 000px 000px 000px 000px 000px  */
+
+@media (max-width: 149px) {
+
+    html {
+        height: 0px;
+    }
+
+    #bodycontainer {
+        width: 95px;
+
+        height: 880px;
+    
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 12px;
+        line-height: 1.2em;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+        width: 95px;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 10px;
+        line-height: 16px;
+        margin-top: 7px;
+        width: 95px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 160px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 0;
+        width: 95px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin-left: px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 28px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 95px;
+        display: block;
+
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 0px;
+        position: relative;
+        top: -50px;
+    }
+    
+    #projects {
+        font-size: 15px;
+
+    }
+
+    #clicktovisit {
+        font-size: 10px;
+        width: 95px;
+        line-height: 14px;
+        margin-bottom: 5px;
+    }
+
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 200px;
+    }
+    
+    #sectionportfolio .container {
+        width: 95px;
+        height: 340px;
+    
+        display: grid;
+        grid-template-rows: 75px 75px 75px 75px 75px 75px;
+        grid-template-columns: 95px;
+        grid-gap: 0px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 1px;
+        font-size: 6.5px;
+        text-transform: uppercase;
+    }
+    
+    
+    p {
+        font-size: 6px;
+        font-weight: initial;
+        letter-spacing: 0.1em;
+        line-height: 2em;
+        width: 95px;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: absolute;
+        top: 800px;
+        padding-bottom: 25px;
+        width: 95px;
+
+    }
+     
+    
+    }
+
+    
+/* 150px 150px 150px 150px 150px 150px 150px */
+
+@media (min-width: 150px) and (max-width: 279px) {
+
+    html {
+        height: 0px;
+    }
+
+    #bodycontainer {
+        width: 115px;
+
+        height: 980px;
+    
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 14px;
+        line-height: 1.2em;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 10.5px;
+        line-height: 16px;
+        margin-top: 7px;
+        width: 115px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        top: 150px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 0;
+
+    }
+    
+    #sectionmoreinfo .container img{
+        margin-left: 11px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 32px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 115px;
+        display: block;
+
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 0px;
+        position: relative;
+        top: -100px;
+    }
+    
+    #projects {
+        font-size: 15px;
+    }
+
+    #clicktovisit {
+        font-size: 10px;
+        width: 115px;
+        line-height: 14px;
+        margin-bottom: 5px;
+    }
+
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 270px;
+    }
+    
+    #sectionportfolio .container {
+        width: 115px;
+        height: 340px;
+    
+        display: grid;
+        grid-template-rows: 85px 85px 85px 85px 85px 85px;
+        grid-template-columns: 115px;
+        grid-gap: 5px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 1px;
+        font-size: 8px;
+        text-transform: uppercase;
+    }
+    
+    
+    p {
+        font-size: 6px;
+        font-weight: initial;
+        letter-spacing: 0.1em;
+        line-height: 2em;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: absolute;
+        top: 900px;
+        padding-bottom: 25px;
+    }
+     
+    
+    }
+
+
+/* 280px 280px 280px 280px 280px 280px  */
+
+@media (min-width: 280px) and (max-width: 324px) {
+
+    html {
+        height: 0px;
+    }
+
+    #bodycontainer {
+        width: 220px;
+
+        height: 1600px;
+    
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 27px;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 12.5px;
+        line-height: 2em;
+        margin-top: 7px;
+        width: 220px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        position: absolute;
+        left: 26px;
+        top: 235px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+        width: 150px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin-left: 11px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 47px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 220px;
+        display: block;
+
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 5px;
+        position: relative;
+        top: -330px;
+    }
+    
+    #projects {
+        font-size: 30px;
+    }
+    #clicktovisit {
+        font-size: 12px;
+        width: 220px;
+        line-height: 16px;
+    }
+
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 440px;
+    }
+    
+    #sectionportfolio .container {
+        width: 220px;
+        height: 340px;
+    
+        display: grid;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px;
+        grid-template-columns: 220px;
+        grid-gap: 15px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    
+    p {
+        font-size: 12px;
+        font-weight: initial;
+        letter-spacing: 1.2px;
+        line-height: 20px;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: absolute;
+        top: 1500px;
+        padding-bottom: 35px;
+
+    }
+     
+    
+    }
+
+/* 320px 320px 320px 320px 320px 320px 320px 320px 320px */
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    html {
+        height: 0px;
+    }
+
+    #bodycontainer {
+        width: 260px;
+
+        height: 1750px;
+    
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 13.5px;
+        line-height: 2em;
+        margin-top: 7px;
+        width: 260px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        position: absolute;
+        left: 45px;
+        top: 250px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+        width: 150px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin: 7px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 51px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 260px;
+        display: block;
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 5px;
+        position: relative;
+        top: -400px;
+    }
+    
+    #projects {
+        font-size: 28px;
+    }
+
+    #clicktovisit {
+        font-size: 12px;
+        width: 80px;
+        line-height: 16px;
+    }
+
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 450px;
+    }
+    
+    #sectionportfolio .container {
+        width: 260px;
+        height: 340px;
+    
+        display: grid;
+        grid-template-rows: 180px 180px 180px 180px 180px 180px;
+        grid-template-columns: 260px;
+        grid-gap: 8px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    
+    p {
+        font-size: 12px;
+        font-weight: initial;
+        letter-spacing: 1.2px;
+        line-height: 20px;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: absolute;
+        top: 1640px;
+        padding-bottom: 35px;
+
+    }
+     
+    
+    }
+
+/* 375px 375px 375px 375px 375px 375px 375px 375px 375px */
+
+@media (min-width: 375px) and (max-width: 429px) {
+
+    html {
+        height: 0px;
+    }
+
+    #bodycontainer {
+        width: 300px;
+
+        height: 695px;
+    
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+        padding-top: 20px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 37px;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 13.5px;
+        line-height: 2em;
+        margin-top: 7px;
+        width: 300px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 240px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+        width: 150px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin: 7px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 51px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 300px;
+        display: block;
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 5px;
+        position: relative;
+        top: -475px;
+    }
+    
+    #projects {
+        font-size: 32px;
+    }
+    #clicktovisit {
+        width: 100px;
+        line-height: 16px;
+    }
+
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 470px;
+    }
+    
+    #sectionportfolio .container {
+        width: 300px;
+        height: 340px;
+    
+        display: grid;
+        grid-template-rows: 215px 215px 215px 215px 215px 215px;
+        grid-template-columns: 300px;
+        grid-gap: 0px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    
+    p {
+        font-size: 12px;
+        font-weight: initial;
+        letter-spacing: 1.2px;
+        line-height: 20px;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: absolute;
+        top: 1780px;
+        padding-bottom: 35px;
+
+    }
+     
+    
+    }
+
+/* 430px 430px 430px 430px 430px 430px 430px 430px 430px */
+
+@media (min-width: 430px) and (max-width: 540px) {
+
+    html {
+        height: 0px;
+    }
+
+    #bodycontainer {
+        width: 330px;
+
+        height: 695px;
+    
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+        padding-top: 40px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 41px;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 14px;
+        line-height: 2em;
+        margin-top: 7px;
+        width: 330px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        position: absolute;
+        left: 25px;
+        top: 270px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin: 7px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 45px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 330px;
+        display: block;
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 5px;
+        position: relative;
+        top: -500px;
+    }
+    
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 450px;
+    }
+    
+    #sectionportfolio .container {
+        width: 330px;
+        height: 340px;
+    
+        display: grid;
+        grid-template-rows: 210px 210px 210px 210px 210px 210px;
+        grid-template-columns: 330px;
+        grid-gap: 15px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    
+    p {
+        font-size: 12px;
+        font-weight: initial;
+        letter-spacing: 1.2px;
+        line-height: 20px;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: absolute;
+        top: 1840px;
+        padding-bottom: 40px;
+
+    }
+     
+    
+    }
+
+/* 541PX 541PX 541PX 541PX 541PX 541PX 541PX 541PX  */
+
+@media (min-width: 541px) and (max-width: 859px) {
+
+    html {
+        height: 0px;
+    }
+
+    #bodycontainer {
+        width: 500px;
+
+        height: 695px;
+    
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+        padding-top: 40px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 37px;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 14px;
+        letter-spacing: 1.3px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 12px;
+        line-height: 2em;
+        margin-top: 7px;
+        width: 320px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        width: 180px;
+        text-align: center;
+
+        position: absolute;
+        left: 305px;
+        top: 60px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin: 7px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 45px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 245px;
+        display: inline-block;
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 0px;
+        position: relative;
+        top: -20px;
+    }
+    
+    #clicktovisit {
+        width: 80px;
+        line-height: 16px;
+    }
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 70px;
+    }
+    
+    #sectionportfolio .container {
+        width: 500px;
+        height: 533px;
+    
+        display: grid;
+        grid-template-rows: 171px 171px 171px;
+        grid-template-columns: 245px 245px;
+        grid-gap: 10px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    
+    p {
+        font-size: 12px;
+        font-weight: initial;
+        letter-spacing: 1.2px;
+        line-height: 20px;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: absolute;
+        top: 870px;
+        padding-bottom: 40px;
+
+    }
+     
+
+}
+
+
+/* 860px 860px 860px 860px 860px 860px 860px  */
+
+@media (min-width: 860px) and (max-width: 1023px) {
+
+    #bodycontainer {
+        width: 750px;
+
+        height: 695px;
+    
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+        padding-top: 40px;
+        padding-left: 0;
+    }
+    
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        font-weight: initial;
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-family: 'Fira Mono Bold', monospace;
+        font-weight: initial;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: initial;
+    }
+    
+    h3 {
+        font-weight: initial;
+        font-size: 14px;
+        line-height: 2em;
+        margin-top: 7px;
+        width: 340px;
+    }
+    
+    header {
+        display: inline-block;
+    
+    }
+    
+    header .container{
+        display: inline-block;
+    }
+    
+    
+    #sectionmoreinfo {
+        display: inline-block;
+        position: absolute;
+        left: 415px;
+        top: 90px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin: 7px;
+    }
+    
+    #moreinfo {
+        text-align:center;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 40px;
+    }
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 235px;
+        display: block;
+    }
+    
+    #portfolio1,
+    #portfolio2,
+    #portfolio3,
+    #portfolio4,
+    #portfolio5,
+    #portfolio6 {
+        padding-bottom: 1px;
+    }
+    
+    #portfolio1:hover,
+    #portfolio2:hover,
+    #portfolio3:hover,
+    #portfolio4:hover,
+    #portfolio5:hover,
+    #portfolio6:hover {
+        padding-bottom: 0px;
+        border-block-end: 1px solid white;
+    }
+    
+    #clicktovisit, #projects{
+        display: inline-block;
+        margin-bottom: 10px;
+        position: relative;
+        top: 15px;
+    }
+    
+    #sectionportfolio {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 15px;
+    }
+    
+    #sectionportfolio .container {
+        width: 750px;
+        height: 340px;
+    
+        display: grid;
+        grid-template-rows: 150px 150px;
+        grid-template-columns: 235px 235px 235px;
+        grid-gap: 20px;
+        
+        justify-items: center;
+        align-items: center;
+    
+        justify-content: center;
+        align-content: center;
+    
+    }
+    
+    .figcaptionclass {
+        background-color: #344752;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    
+    p {
+        font-size: 12px;
+        font-weight: initial;
+        letter-spacing: 1.2px;
+    }
+    
+    #creditscontainer {
+        text-align: center;
+        position: relative;
+        top: 40px;
+        padding-bottom: 25px;
+    }
+     
+    
+    }
+    
+/* 1024PX 1024PX 1024PX 1024PX 1024PX 1024PX */
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    
+#bodycontainer {
+    width: 865px;
+    padding-left: 20px;
+    height: 400px;
+
+}
+
+h1 {
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 14px;
+    letter-spacing: 1.2px;
+}
+
+h3 {
+    font-size: 12px;
+    line-height: 2em;
+    margin-top: 7px;
+    width: 250px;
+}
+
+
+#portfolio1img,
+#portfolio2img,
+#portfolio3img,
+#portfolio4img,
+#portfolio5img,
+#portfolio6img {
+    width: 170px;
+}
+
+#clicktovisit, #projects{
+    margin-bottom: 5px;
+    position: relative;
+    top: 0px;
+}
+
+#sectionportfolio {
+    margin-left: 30px;
+    position: relative;
+    top: 45px;
+}
+
+#sectionportfolio .container {
+    width: 530px;
+    height: 240px;
+
+    display: grid;
+    grid-template-rows: 115px 115px;
+    grid-template-columns: 170px 170px 170px;
+    grid-gap: 10px;
+
+}
+
+.figcaptionclass {
+    padding: 3px;
+    font-size: 11px;
+}
+
+#sectionmoreinfo {
+    position: relative;
+    left: 10px;
+    top: -50px;
+}
+
+#sectionmoreinfo .container {
+    margin: 8px;
+}
+
+#sectionmoreinfo .container img{
+    margin: 5px;
+}
+
+#whatsappimg,
+#emailimg,
+#linkedinimg,
+#githubimg {
+    width: 35px;
+}
+
+p {
+    font-size: 10px;
+    letter-spacing: 1.2px;
+}
+
+#creditscontainer {
+    position: relative;
+    top: 0px;
+}
+
+}
+
+/* 1920PX 1920PX 1920PX 1920PX 1920PX 1920PX 1920PX  */
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+
+    
+    #bodycontainer {
+        width: 1600px;
+        padding-left: 20px;
+        height: 630px;
+    }
+    
+    h1 {
+        font-size: 47px;
+    }
+    
+    h2 {
+        font-size: 18px;
+        letter-spacing: 1.2px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        line-height: 2em;
+        margin-top: 7px;
+    }
+    
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 320px;
+    }
+    
+    #clicktovisit, #projects{
+        margin-bottom: 5px;
+        position: relative;
+        top: -110px;
+    }
+    
+    #sectionportfolio {
+        margin-left: 120px;
+        position: relative;
+        top: 100px;
+    }
+    
+    #sectionportfolio .container {
+        width: 1000px;
+        height: 240px;
+    
+        display: grid;
+        grid-template-rows: 203px 203px;
+        grid-template-columns: 320px 320px 320px;
+        grid-gap: 20px;
+    
+    }
+    
+    .figcaptionclass {
+        padding: 3px;
+    }
+    
+    #sectionmoreinfo {
+        position: relative;
+        left: 90px;
+        top: 30px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin: 5px;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 50px;
+    }
+    
+    p {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+
+    #creditscontainer {
+        position: relative;
+        top: 160px;
+    }
+    
+    }
+    
+    /* 2560px 2560px 2560px 2560px 2560px 2560px 2560px 2560px*/
+
+@media (min-width: 2560px) {
+
+    
+    #bodycontainer {
+        width: 1800px;
+        padding-left: 20px;
+        height: 710px;
+    }
+    
+    h1 {
+        font-size: 62px;
+    }
+    
+    h2 {
+        font-size: 25px;
+        letter-spacing: 0.2em;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 2em;
+        margin-top: 7px;
+    }
+    
+    
+    #portfolio1img,
+    #portfolio2img,
+    #portfolio3img,
+    #portfolio4img,
+    #portfolio5img,
+    #portfolio6img {
+        width: 350px;
+    }
+    
+    #clicktovisit, #projects{
+        margin-bottom: 5px;
+        position: relative;
+        top: -130px;
+    }
+    
+    #sectionportfolio {
+        margin-left: 80px;
+        position: relative;
+        top: 100px;
+    }
+    
+    #sectionportfolio .container {
+        width: 1090px;
+        height: 240px;
+    
+        display: grid;
+        grid-template-rows: 220px 220px;
+        grid-template-columns: 350px 350px 350px;
+        grid-gap: 20px;
+    
+    }
+    
+    .figcaptionclass {
+        padding: 3px;
+    }
+    
+    #sectionmoreinfo {
+        position: relative;
+        left: 100px;
+        top: 30px;
+    }
+    
+    #sectionmoreinfo .container {
+        margin: 8px;
+    }
+    
+    #sectionmoreinfo .container img{
+        margin: 5px;
+    }
+    
+    #whatsappimg,
+    #emailimg,
+    #linkedinimg,
+    #githubimg {
+        width: 55px;
+    }
+    
+    p {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+    }
+
+    #creditscontainer {
+        position: relative;
+        top: 160px;
+    }
+    
+    }
+    
